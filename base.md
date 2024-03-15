@@ -50,8 +50,9 @@ sudo docker images
 
 For example, we can get the information as follows:
 
-REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
-cmdstan      latest    67d7e19981f0   59 minutes ago   506MB
+| REPOSITORY | TAG    | IMAGE ID     | CREATED         | SIZE   |
+|------------|--------|--------------|-----------------|--------|
+| cmdstan    | latest | 67d7e19981f0 | 59 minutes ago | 506MB  |
 
 Now we can commit the changes to a new name
 
