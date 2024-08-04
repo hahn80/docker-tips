@@ -66,3 +66,19 @@ Then we can save it to:
 sudo docker commit 67d7e19981f0 cmdstan2:latest
 ```
 
+
+Start the Existing Container:
+
+```sh
+sudo docker start bf392124fbed
+```
+
+After starting the container, you can use docker exec to run a command in the running container.
+For example, to open a bash shell:
+
+```sh
+sudo docker exec -it bf392124fbed /bin/bash
+```
+
+
+
